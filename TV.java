@@ -1,14 +1,14 @@
 public class TV {
-    private State HomeState;
-    private State HuluState;
-    private State NetflixState;
+    private State homeState;
+    private State huluState;
+    private State netflixState;
     private State state;
 
     public TV() {
-        this.HomeState = HomeState;
-        this.HuluState = HuluState;
-        this.NetflixState = NetflixState;
-        this.state = state;
+        homeState = new HomeState();
+        huluState = new HuluState();
+        netflixState = new NetflixState();
+        state = homeState;
     }
 
     public void pressHomeButton() {
