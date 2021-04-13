@@ -1,6 +1,10 @@
 public class HomeState implements State {
     private TV tv;
     
+    public HomeState(TV tv) {
+        this.tv = tv;
+    }
+    
     @Override
     public void pressHomeButton() {
         System.out.println("TV is already on home screen");

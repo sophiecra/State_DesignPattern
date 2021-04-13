@@ -3,6 +3,10 @@ import java.util.Arrays;
 public class HuluState implements State {
     private TV tv;
 
+    public HuluState(TV tv) {
+        this.tv = tv;
+    }
+
     private ArrayList<String> movies = new ArrayList<>(Arrays.asList("Crazy, Stupid Love", "Interstellar", "21 Jump Street", "Minions", "Despicable Me"));
     private ArrayList<String> tvShows = new ArrayList<>(Arrays.asList("iCarly", "Big Time Rush", "ABC News", "Jeopardy", "Garfield"));
     
@@ -29,6 +33,7 @@ public class HuluState implements State {
         for (int i = 0; i < movies.size(); i++) {
             System.out.println("- " + movies.get(i));
         }
+        System.out.println();
     }
 
     @Override
@@ -37,5 +42,6 @@ public class HuluState implements State {
         for (int i = 0; i < tvShows.size(); i++) {
             System.out.println("- " + tvShows.get(i));
         }
+        System.out.println();
     }
 }
