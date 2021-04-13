@@ -12,15 +12,18 @@ public class HomeState implements State {
         tv.setState(tv.getNetflixState());
     }
 
+    @Override
     public void pressHuluButton() {
         System.out.println("Loading Hulu...");
         tv.setState(tv.getHuluState());
     }
 
+    @Override
     public void pressMovieButton() {
         System.out.println("You must pick an app to show movies");
     }
 
+    @Override
     public void pressTVButton() {
         System.out.println("You must pick an app to show movies");
     }
