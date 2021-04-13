@@ -1,5 +1,5 @@
 public class HomeState implements State {
-    private TV tv;
+    private TV tv = new TV();
     
     @Override
     public void pressHomeButton() {

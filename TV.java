@@ -2,6 +2,7 @@ public class TV {
     private State homeState;
     private State huluState;
     private State netflixState;
+    
     private State state;
 
     public TV() {

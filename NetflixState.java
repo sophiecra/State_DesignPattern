@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 public class NetflixState implements State {
-    private TV tv;
+    private TV tv = new TV();
+    
     private ArrayList<String> movies = new ArrayList<>(Arrays.asList("Die Hard", "50 First Dates", "La La Land", "Eat, Pray, Love", "Inception"));
     private ArrayList<String> tvShows = new ArrayList<>(Arrays.asList("How I Met Your Mother", "The Office", "New Girl", "Broadchurch", "Parks and Recreation"));
 
