@@ -1,5 +1,6 @@
 /**
  * Interface for different states of the TV
+ * @author Sophie Crane
  */
 public interface State {
     public void pressHomeButton();
