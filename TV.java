@@ -36,14 +36,14 @@ public class TV {
     }
 
     public State getHomeState() {
-        return HomeState;
+        return homeState;
     }
 
     public State getNetflixState() {
-        return NetflixState;
+        return netflixState;
     }
 
     public State getHuluState() {
-        return HuluState;
+        return huluState;
     }
 }
