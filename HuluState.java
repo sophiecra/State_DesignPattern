@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 public class HuluState implements State {
-    private TV tv = new TV();
-    
+    private TV tv;
+
     private ArrayList<String> movies = new ArrayList<>(Arrays.asList("Crazy, Stupid Love", "Interstellar", "21 Jump Street", "Minions", "Despicable Me"));
     private ArrayList<String> tvShows = new ArrayList<>(Arrays.asList("iCarly", "Big Time Rush", "ABC News", "Jeopardy", "Garfield"));
     
