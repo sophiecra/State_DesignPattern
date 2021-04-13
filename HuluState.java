@@ -12,19 +12,19 @@ public class HuluState implements State {
     
     @Override
     public void pressHomeButton() {
-        System.out.println("Loading the Home Screen...");
+        System.out.println("Loading the Home Screen...\n");
         tv.setState(tv.getHomeState());
     }
 
     @Override
     public void pressNetflixButton() {
-        System.out.println("Loading Netflix...");
+        System.out.println("Loading Netflix...\n");
         tv.setState(tv.getNetflixState());
     }
 
     @Override
     public void pressHuluButton() {
-        System.out.println("We are already in Hulu");
+        System.out.println("We are already in Hulu\n");
     }
 
     @Override
